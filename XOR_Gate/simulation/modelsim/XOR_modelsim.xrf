@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/XOR_Gate/XOR_GATE.vhd
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/XOR_Gate/XOR_Gate.vwf
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/XOR_Gate/db/XOR.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = XOR_GATE
+instance = comp, \OUTPUT~output , OUTPUT~output, XOR_GATE, 1
+instance = comp, \INPUT_C~input , INPUT_C~input, XOR_GATE, 1
+instance = comp, \INPUT_B~input , INPUT_B~input, XOR_GATE, 1
+instance = comp, \INPUT_A~input , INPUT_A~input, XOR_GATE, 1
+instance = comp, \OUTPUT~0 , OUTPUT~0, XOR_GATE, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, XOR_GATE, 1

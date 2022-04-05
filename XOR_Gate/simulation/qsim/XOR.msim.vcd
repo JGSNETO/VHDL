@@ -1,0 +1,78 @@
+$comment
+	File created using the following command:
+		vcd file XOR.msim.vcd -direction
+$end
+$date
+	Tue Apr 05 20:43:53 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module XOR_GATE_vlg_vec_tst $end
+$var reg 1 ! INPUT_A $end
+$var reg 1 " INPUT_B $end
+$var reg 1 # INPUT_C $end
+$var wire 1 $ OUTPUT $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 - INPUT_C~input_o $end
+$var wire 1 . INPUT_B~input_o $end
+$var wire 1 / INPUT_A~input_o $end
+$var wire 1 0 OUTPUT~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+1$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+1/
+10
+$end
+#60000
+0!
+1"
+0/
+1.
+0%
+#160000
+0"
+0.
+1%
+00
+0$
+#170000
+1!
+1"
+1/
+1.
+0%
+#390000
+0!
+0"
+0/
+0.
+1%
+#1000000

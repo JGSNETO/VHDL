@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\JGSN_SD\Git\VHDL\XOR_Gate\simulation\qsim
+vXOR_GATE
+Z1 IQZbFLCjiMQ2j3FXdf`1HT3
+Z2 Vg7lV7boNEeh:J97@66eFT0
+Z3 dC:\Users\JGSN_SD\Git\VHDL\XOR_Gate\simulation\qsim
+Z4 w1649202224
+Z5 8XOR.vo
+Z6 FXOR.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@x@o@r_@g@a@t@e
+!i10b 1
+Z10 !s100 ?QOJ_?@c54Bob75M<1<Mz2
+!s85 0
+Z11 !s108 1649202229.077000
+Z12 !s107 XOR.vo|
+Z13 !s90 -work|work|XOR.vo|
+!s101 -O0
+vXOR_GATE_vlg_check_tst
+!i10b 1
+!s100 ?NHh08^53z]e5?S>TjT;C1
+IC0FDPo?i7;T2CJ15NXIj83
+VcBHkl[1Ab=gf;BzmUELdk2
+R3
+Z14 w1649202221
+Z15 8XOR.vt
+Z16 FXOR.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1649202229.294000
+Z18 !s107 XOR.vt|
+Z19 !s90 -work|work|XOR.vt|
+!s101 -O0
+R8
+n@x@o@r_@g@a@t@e_vlg_check_tst
+vXOR_GATE_vlg_sample_tst
+!i10b 1
+!s100 9lmeHF[j<z=?TDH=dFnYK3
+IfL7;75J;QW1g50L^N4QD93
+VW6E;za:k78nOzVlk7kNH31
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@x@o@r_@g@a@t@e_vlg_sample_tst
+vXOR_GATE_vlg_vec_tst
+!i10b 1
+!s100 kllM6VY?`B[n62;9Nj3OY0
+IJ8HKLS[_?Xl;:AIJ;g[h43
+VAaOGd_:Nj1cZgzhOCH^2E3
+R3
+R14
+R15
+R16
+L0 156
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@x@o@r_@g@a@t@e_vlg_vec_tst
