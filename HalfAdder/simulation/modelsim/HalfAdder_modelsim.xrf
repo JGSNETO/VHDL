@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/HalfAdder/HalfAdder.bdf
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/HalfAdder/HalfAdder.vwf
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/HalfAdder/db/HalfAdder.cbx.xml
+design_name = HalfAdder
+instance = comp, \Sum~output , Sum~output, HalfAdder, 1
+instance = comp, \CarryOut~output , CarryOut~output, HalfAdder, 1
+instance = comp, \B~input , B~input, HalfAdder, 1
+instance = comp, \A~input , A~input, HalfAdder, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, HalfAdder, 1

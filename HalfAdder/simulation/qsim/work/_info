@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\JGSN_SD\Git\VHDL\HalfAdder\simulation\qsim
+vHalfAdder
+Z1 !s100 l@[R5dm_jbimhX2UW1DlK3
+Z2 IU37GhCIZiA@cjW2K<I3kT0
+Z3 V;PDWnRiM>n1L3P2FMNVe62
+Z4 dC:\Users\JGSN_SD\Git\VHDL\HalfAdder\simulation\qsim
+Z5 w1650327079
+Z6 8HalfAdder.vo
+Z7 FHalfAdder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|HalfAdder.vo|
+Z10 o-work work -O0
+Z11 n@half@adder
+!i10b 1
+!s85 0
+Z12 !s108 1650327087.761000
+Z13 !s107 HalfAdder.vo|
+!s101 -O0
+vHalfAdder_vlg_check_tst
+!i10b 1
+!s100 E?8>m6@7hd=?KBK4`gkLe3
+I;^L3X=4C2SO[M2H4m;8Te3
+VP1Ib<C0n[F8O[fg?AKT9?3
+R4
+Z14 w1650327076
+Z15 8HalfAdder.vt
+Z16 FHalfAdder.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1650327089.078000
+Z18 !s107 HalfAdder.vt|
+Z19 !s90 -work|work|HalfAdder.vt|
+!s101 -O0
+R10
+n@half@adder_vlg_check_tst
+vHalfAdder_vlg_sample_tst
+!i10b 1
+!s100 2LUXnjg]oVLlB13F?Y5:d1
+IIfAI:3CdIBja8AD6J1ehD0
+VTo5Z^_k=m]j4g_G]A>bhZ1
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+n@half@adder_vlg_sample_tst
+vHalfAdder_vlg_vec_tst
+!i10b 1
+!s100 f[cBN1O`Njja5Fgd:9FRU3
+Ig1D<h32gm8Xd2jB=NSJaP1
+VC9>e0g5cXO=l6eeOciFXC2
+R4
+R14
+R15
+R16
+L0 181
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+n@half@adder_vlg_vec_tst
