@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\JGSN_SD\VHD\Multiplex_BasicGates\simulation\qsim
+vMulti21_8bits
+Z1 I0OG:9eh`TRLoZJiRJ0FJ_1
+Z2 VD?2bWW;N`Ed>^>SJSN^N81
+Z3 dC:\Users\JGSN_SD\VHD\Multiplex_BasicGates\simulation\qsim
+Z4 w1649435268
+Z5 8Multiplex.vo
+Z6 FMultiplex.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Multiplex.vo|
+Z9 o-work work -O0
+Z10 n@multi21_8bits
+!i10b 1
+Z11 !s100 :=dXgel99L1@JO`8bJlNd1
+!s85 0
+Z12 !s108 1649435285.485000
+Z13 !s107 Multiplex.vo|
+!s101 -O0
+vMulti21_8bits_vlg_check_tst
+!i10b 1
+!s100 WgPJCN0ni]:cOLPHb4D4l0
+Iz?8?XHUZVk<:[MY_C9;8e1
+VQ?TO88R>zoN7aka>UL2m03
+R3
+Z14 w1649435266
+Z15 8Multiplex.vt
+Z16 FMultiplex.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1649435286.146000
+Z18 !s107 Multiplex.vt|
+Z19 !s90 -work|work|Multiplex.vt|
+!s101 -O0
+R9
+n@multi21_8bits_vlg_check_tst
+vMulti21_8bits_vlg_sample_tst
+!i10b 1
+!s100 YziA3f323iBc=fn6D6I@l3
+IR_JJ1eYo^^9VY>bVzaVVQ3
+V9NRlY[TkdTD@GGKQib]Sb1
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+n@multi21_8bits_vlg_sample_tst
+vMulti21_8bits_vlg_vec_tst
+!i10b 1
+!s100 HYc?>>FNz[maWP[IR=WHP3
+IRPR_LJW=0I2^QlP3iUDC23
+V]F;?GG0T2RBHcQfbl>]@z3
+R3
+R14
+R15
+R16
+L0 281
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+n@multi21_8bits_vlg_vec_tst
+vMultiplex
+Z20 I]gDM3zMChG`S^5bIEU2Xm1
+Z21 VSAdLBFLN8kV7gVT>ib@[F0
+R3
+Z22 w1649375691
+R5
+R6
+L0 31
+R7
+r1
+31
+R9
+Z23 n@multiplex
+Z24 !s100 4=boB=GdfUIfUDR^G?1gN2
+Z25 !s108 1649375750.420000
+R13
+R8
+!i10b 1
+!s85 0
+!s101 -O0
+vMultiplex_vlg_check_tst
+Z26 I11FX?5dnN=EC8c^:Zm7J21
+Z27 VmZQOl2LlSQZ@W[@FSN5J33
+R3
+Z28 w1649375683
+R15
+R16
+L0 61
+R7
+r1
+31
+Z29 !s108 1649375753.154000
+Z30 !s107 Multiplex.vt|
+R19
+R9
+Z31 n@multiplex_vlg_check_tst
+Z32 !s100 c@XH3k8fGD673>]=CQzk40
+!i10b 1
+!s85 0
+!s101 -O0
+vMultiplex_vlg_sample_tst
+Z33 IXLKF8I]hcVMj@KQo]HIaR1
+Z34 V:2TEYZ4TS14mCRBznOg>Y1
+R3
+R28
+R15
+R16
+L0 29
+R7
+r1
+31
+R29
+R30
+R19
+R9
+Z35 n@multiplex_vlg_sample_tst
+Z36 !s100 ;>=VmWHR_cgzz_R;HM4Y70
+!i10b 1
+!s85 0
+!s101 -O0
+vMultiplex_vlg_vec_tst
+Z37 Ii]5`[5nKF>@cD^>[Q99=X2
+Z38 V7[g<0PQL4PVVGX;6UV2d92
+R3
+R28
+R15
+R16
+Z39 L0 156
+R7
+r1
+31
+R29
+R30
+R19
+R9
+Z40 n@multiplex_vlg_vec_tst
+Z41 !s100 cl4KKU`AfJ`4F;;?iEEj93
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,35 @@
+|Multi21_8bits
+d0[0] => data_out[0].DATAB
+d0[1] => data_out[1].DATAB
+d0[2] => data_out[2].DATAB
+d0[3] => data_out[3].DATAB
+d0[4] => data_out[4].DATAB
+d0[5] => data_out[5].DATAB
+d0[6] => data_out[6].DATAB
+d0[7] => data_out[7].DATAB
+d1[0] => data_out[0].DATAA
+d1[1] => data_out[1].DATAA
+d1[2] => data_out[2].DATAA
+d1[3] => data_out[3].DATAA
+d1[4] => data_out[4].DATAA
+d1[5] => data_out[5].DATAA
+d1[6] => data_out[6].DATAA
+d1[7] => data_out[7].DATAA
+s => data_out[0].OUTPUTSELECT
+s => data_out[1].OUTPUTSELECT
+s => data_out[2].OUTPUTSELECT
+s => data_out[3].OUTPUTSELECT
+s => data_out[4].OUTPUTSELECT
+s => data_out[5].OUTPUTSELECT
+s => data_out[6].OUTPUTSELECT
+s => data_out[7].OUTPUTSELECT
+data_out[0] <= data_out[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3].DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out[4].DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out[5].DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out[6].DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_out[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

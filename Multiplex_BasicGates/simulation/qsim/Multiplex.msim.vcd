@@ -1,0 +1,216 @@
+$comment
+	File created using the following command:
+		vcd file Multiplex.msim.vcd -direction
+$end
+$date
+	Fri Apr 08 13:28:12 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Multi21_8bits_vlg_vec_tst $end
+$var reg 8 ! d0 [7:0] $end
+$var reg 8 " d1 [7:0] $end
+$var reg 1 # s $end
+$var wire 1 $ data_out [7] $end
+$var wire 1 % data_out [6] $end
+$var wire 1 & data_out [5] $end
+$var wire 1 ' data_out [4] $end
+$var wire 1 ( data_out [3] $end
+$var wire 1 ) data_out [2] $end
+$var wire 1 * data_out [1] $end
+$var wire 1 + data_out [0] $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 4 s~input_o $end
+$var wire 1 5 d1[0]~input_o $end
+$var wire 1 6 d0[0]~input_o $end
+$var wire 1 7 data_out[0]~0_combout $end
+$var wire 1 8 d0[1]~input_o $end
+$var wire 1 9 d1[1]~input_o $end
+$var wire 1 : data_out[1]~1_combout $end
+$var wire 1 ; d0[2]~input_o $end
+$var wire 1 < d1[2]~input_o $end
+$var wire 1 = data_out[2]~2_combout $end
+$var wire 1 > d1[3]~input_o $end
+$var wire 1 ? d0[3]~input_o $end
+$var wire 1 @ data_out[3]~3_combout $end
+$var wire 1 A d0[4]~input_o $end
+$var wire 1 B d1[4]~input_o $end
+$var wire 1 C data_out[4]~4_combout $end
+$var wire 1 D d1[5]~input_o $end
+$var wire 1 E d0[5]~input_o $end
+$var wire 1 F data_out[5]~5_combout $end
+$var wire 1 G d0[6]~input_o $end
+$var wire 1 H d1[6]~input_o $end
+$var wire 1 I data_out[6]~6_combout $end
+$var wire 1 J d1[7]~input_o $end
+$var wire 1 K d0[7]~input_o $end
+$var wire 1 L data_out[7]~7_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+x,
+0-
+1.
+x/
+10
+11
+12
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+$end
+#10000
+b10000000 !
+b11000000 !
+b11100000 !
+b11110000 !
+b11111000 !
+b11111100 !
+b11111110 !
+b11111111 !
+16
+18
+1;
+1?
+1A
+1E
+1G
+1K
+0,
+17
+1:
+1=
+1@
+1C
+1F
+1I
+1L
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#170000
+b1111111 !
+b111111 !
+b11111 !
+b1111 !
+b111 !
+b11 !
+b1 !
+b0 !
+06
+08
+0;
+0?
+0A
+0E
+0G
+0K
+1,
+07
+0:
+0=
+0@
+0C
+0F
+0I
+0L
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#210000
+b100000 !
+1E
+0,
+1F
+1&
+#390000
+b1000000 "
+b1100000 "
+b1110000 "
+1#
+b0 !
+14
+0E
+1B
+1D
+1H
+1,
+1C
+1I
+1'
+1%
+#640000
+b110000 "
+b10000 "
+b0 "
+0#
+0B
+0D
+0H
+04
+0,
+0C
+0F
+0I
+0'
+0&
+0%
+#1000000
