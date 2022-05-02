@@ -1,0 +1,42 @@
+LIBRARY IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL; --Use unsigned numbers
+use IEEE.NUMERIC_STD.ALL; -- Use integers in VHDL
+
+entity ALU is
+
+port
+(
+A , B : in STD_LOGIC_VECTOR( 7 downto 0);
+OP : in STD_LOGIC_VECTOR(2 downto 0); --Suport 3 operations (3 bits)
+Result : out STD_LOGIC_VECTOR (7 downto 0);
+carry :  out STD_LOGIC
+)
+
+end entity ALU;
+
+architecture Behavioral of ALU is
+
+--Just a intermediate signal between two components
+--When connect two component through a wire this intermediate wire is a signal 
+signal ALU_RESULT : STD_LOGIC_VECTOR ( 7 downto 0);
+
+--When use case is import have signal
+begin
+process (A,B,OP)
+begin
+case(op) is 
+when "000" => -- adition 
+ALU_RESULT <= A + B;
+when "001" => --subtraction
+ALU_RESULT <= A - B;
+when others => --default
+ALU_RESULT <=  A; --Example
+end case;
+end process;
+
+RESULT <= ALU_RESULT;
+
+end Behavioral;
+
+
