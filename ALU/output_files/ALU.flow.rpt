@@ -1,5 +1,5 @@
 Flow report for ALU
-Sat Apr 30 16:05:33 2022
+Tue May 03 10:31:48 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,19 +40,19 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +-------------------------------------+-------------------------------------------------+
-; Flow Status                         ; Successful - Sat Apr 30 16:05:04 2022           ;
+; Flow Status                         ; Successful - Tue May 03 10:31:48 2022           ;
 ; Quartus II 64-Bit Version           ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                       ; ALU                                             ;
 ; Top-level Entity Name               ; ALU                                             ;
 ; Family                              ; Cyclone V                                       ;
 ; Device                              ; 5CEBA4U19C8                                     ;
 ; Timing Models                       ; Final                                           ;
-; Logic utilization (in ALMs)         ; 9 / 18,480 ( < 1 % )                            ;
+; Logic utilization (in ALMs)         ; 72 / 18,480 ( < 1 % )                           ;
 ; Total registers                     ; 0                                               ;
 ; Total pins                          ; 28 / 224 ( 13 % )                               ;
 ; Total virtual pins                  ; 0                                               ;
 ; Total block memory bits             ; 0 / 3,153,920 ( 0 % )                           ;
-; Total DSP Blocks                    ; 0 / 66 ( 0 % )                                  ;
+; Total DSP Blocks                    ; 1 / 66 ( 2 % )                                  ;
 ; Total HSSI RX PCSs                  ; 0                                               ;
 ; Total HSSI PMA RX Deserializers     ; 0                                               ;
 ; Total HSSI PMA RX ATT Deserializers ; 0                                               ;
@@ -69,25 +69,28 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/30/2022 15:59:42 ;
+; Start date & time ; 05/03/2022 09:53:20 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU                 ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                ;
-+-------------------------------------+--------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+--------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 40637542853688.165134518114016 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --         ;
-+-------------------------------------+--------------------------------+---------------+-------------+------------+
++---------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                    ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 40637542853688.165158240018360 ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                             ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --             ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -95,11 +98,16 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:01     ; 1.0                     ; 4675 MB             ; 00:00:04                           ;
-; Fitter                    ; 00:03:11     ; 1.0                     ; 5517 MB             ; 00:00:54                           ;
-; Assembler                 ; 00:00:17     ; 1.0                     ; 4696 MB             ; 00:00:09                           ;
-; TimeQuest Timing Analyzer ; 00:00:28     ; 1.0                     ; 5122 MB             ; 00:00:15                           ;
-; Total                     ; 00:04:57     ; --                      ; --                  ; 00:01:22                           ;
+; Analysis & Synthesis      ; 00:00:20     ; 1.0                     ; 4677 MB             ; 00:00:05                           ;
+; Fitter                    ; 00:02:43     ; 1.0                     ; 5534 MB             ; 00:00:56                           ;
+; Assembler                 ; 00:00:20     ; 1.0                     ; 4702 MB             ; 00:00:09                           ;
+; TimeQuest Timing Analyzer ; 00:01:09     ; 1.0                     ; 5117 MB             ; 00:00:18                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 4567 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4576 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4576 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4576 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4576 MB             ; 00:00:02                           ;
+; Total                     ; 00:04:45     ; --                      ; --                  ; 00:01:38                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +120,11 @@ applicable agreement for further details.
 ; Fitter                    ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
 ; Assembler                 ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-LP40AUK  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -122,6 +135,11 @@ quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU
 quartus_fit --read_settings_files=off --write_settings_files=off ALU -c ALU
 quartus_asm --read_settings_files=off --write_settings_files=off ALU -c ALU
 quartus_sta ALU -c ALU
+quartus_eda --read_settings_files=off --write_settings_files=off ALU -c ALU
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ALU -c ALU --vector_source=C:/Users/JGSN_SD/Git/VHDL/ALU/ALU.vwf --testbench_file=./simulation/qsim/ALU.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ALU -c ALU
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ALU -c ALU --vector_source=C:/Users/JGSN_SD/Git/VHDL/ALU/ALU.vwf --testbench_file=./simulation/qsim/ALU.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ALU -c ALU
 
 
 

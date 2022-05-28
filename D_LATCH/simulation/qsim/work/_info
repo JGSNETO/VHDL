@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\JGSN_SD\Git\VHDL\D_LATCH\simulation\qsim
+vD_LATCH
+Z1 IiajYAB9o@4G:CW[<E<46L2
+Z2 Vz>WmnPT5V6fL:k=6d>M@z2
+Z3 dC:\Users\JGSN_SD\Git\VHDL\D_LATCH\simulation\qsim
+Z4 w1652459703
+Z5 8D_LATCH.vo
+Z6 FD_LATCH.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@d_@l@a@t@c@h
+!i10b 1
+Z10 !s100 Bja6:dKA<Oj>L1I7gSf_92
+!s85 0
+Z11 !s108 1652459710.793000
+Z12 !s107 D_LATCH.vo|
+Z13 !s90 -work|work|D_LATCH.vo|
+!s101 -O0
+vD_LATCH_vlg_check_tst
+!i10b 1
+!s100 VX?kK8>U9=4Y<L10aLf@[0
+IZ`ok3E8Z:OEf42@OXB7an3
+Vi<Z`oAnTK3]^B<ZnGm?Sl2
+R3
+Z14 w1652459699
+Z15 8D_LATCH.vt
+Z16 FD_LATCH.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1652459711.371000
+Z18 !s107 D_LATCH.vt|
+Z19 !s90 -work|work|D_LATCH.vt|
+!s101 -O0
+R8
+n@d_@l@a@t@c@h_vlg_check_tst
+vD_LATCH_vlg_sample_tst
+!i10b 1
+!s100 gAM4zDJBcF4Zj88kO=UDU3
+IcA6Z7I8UNZAZUJz:J>cMg0
+V?0EnaVFdhzXHE@XPkk[N_3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@d_@l@a@t@c@h_vlg_sample_tst
+vD_LATCH_vlg_vec_tst
+!i10b 1
+!s100 JC7hVHPMgF[dLoei0K:fZ2
+Ig5hm8J2Kh58NaaI@Aiom;3
+VIWb`b5iinKZ8SNl]DA1hJ0
+R3
+R14
+R15
+R16
+L0 154
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@d_@l@a@t@c@h_vlg_vec_tst

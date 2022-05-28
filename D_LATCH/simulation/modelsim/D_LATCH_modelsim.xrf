@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/D_LATCH/D_LATCH.vhd
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/D_LATCH/D_LATCH.vwf
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/D_LATCH/db/D_LATCH.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = D_LATCH
+instance = comp, \Q~output , Q~output, D_LATCH, 1
+instance = comp, \D~input , D~input, D_LATCH, 1
+instance = comp, \CLK~input , CLK~input, D_LATCH, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, D_LATCH, 1

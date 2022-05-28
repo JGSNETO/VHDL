@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\JGSN_SD\Git\VHDL\ALU\simulation\qsim
+vALU
+Z1 !s100 O1ll`T1<XABUER2>k7:Pz0
+Z2 I5?7hog1ioMEo^R5f>Yi`C3
+Z3 VGBW6o1ia<<SZ<Y5]Eb;eC0
+Z4 dC:\Users\JGSN_SD\Git\VHDL\ALU\simulation\qsim
+Z5 w1651584708
+Z6 8ALU.vo
+Z7 FALU.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ALU.vo|
+Z10 o-work work -O0
+Z11 n@a@l@u
+!i10b 1
+!s85 0
+Z12 !s108 1651584710.574000
+Z13 !s107 ALU.vo|
+!s101 -O0
+vALU_vlg_check_tst
+!i10b 1
+Z14 !s100 @O78mnzhL2Xg2d9h6@D0=1
+Z15 ILSY[2h:W_1D3KQ;c8IFWF3
+Z16 V3AVhKQ_;J5azLHA98PcPn2
+R4
+Z17 w1651584706
+Z18 8ALU.vt
+Z19 FALU.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1651584711.095000
+Z21 !s107 ALU.vt|
+Z22 !s90 -work|work|ALU.vt|
+!s101 -O0
+R10
+Z23 n@a@l@u_vlg_check_tst
+vALU_vlg_sample_tst
+!i10b 1
+Z24 !s100 8fz5RW;jPS]`LC5WSP2:X0
+Z25 IDD@QiQ@^Lo<Z10HI:HO>:1
+Z26 V7ll4jE?6>gzR4fV1h6`8M1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@a@l@u_vlg_sample_tst
+vALU_vlg_vec_tst
+!i10b 1
+!s100 cd<0Zfd7LiLjLR=NATdNN3
+IJGEK]kVH<VT1ZOT`I;@hN3
+Z28 V>bFnnU[^IecCM5^<l3;]W0
+R4
+R17
+R18
+R19
+Z29 L0 308
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@a@l@u_vlg_vec_tst

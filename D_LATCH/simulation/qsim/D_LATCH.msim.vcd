@@ -1,0 +1,106 @@
+$comment
+	File created using the following command:
+		vcd file D_LATCH.msim.vcd -direction
+$end
+$date
+	Fri May 13 13:35:15 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module D_LATCH_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 1 " D $end
+$var wire 1 # Q $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , D~input_o $end
+$var wire 1 - CLK~input_o $end
+$var wire 1 . Q$latch~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+x.
+$end
+#50000
+1!
+1-
+0$
+0.
+0#
+#180000
+1"
+1,
+1$
+1.
+1#
+#310000
+0!
+0-
+0$
+#460000
+0"
+0,
+1$
+#470000
+1!
+1-
+0$
+0.
+0#
+#560000
+0!
+0-
+1$
+#580000
+1"
+1,
+0$
+#680000
+0"
+0,
+1$
+#750000
+1"
+1,
+0$
+#820000
+1!
+1-
+1$
+1.
+1#
+#910000
+0!
+0-
+0$
+#940000
+0"
+0,
+1$
+#1000000

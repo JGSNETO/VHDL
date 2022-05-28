@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/SR_LATCH.vhd
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/SR_LATCH.vwf
+source_file = 1, C:/Users/JGSN_SD/Git/VHDL/db/SR_LATCH.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = SR_LATCH
+instance = comp, \Q~output , Q~output, SR_LATCH, 1
+instance = comp, \R~input , R~input, SR_LATCH, 1
+instance = comp, \S~input , S~input, SR_LATCH, 1
+instance = comp, \Q~3 , Q~3, SR_LATCH, 1
+instance = comp, \Q~input , Q~input, SR_LATCH, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, SR_LATCH, 1

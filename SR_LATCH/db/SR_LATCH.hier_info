@@ -1,0 +1,6 @@
+|SR_LATCH
+S => notQ.IN1
+R => Q.IN1
+Q <> Q
+
+
