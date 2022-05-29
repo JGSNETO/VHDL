@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\JGSN_SD\Git\VHDL\dff\simulation\qsim
+vdff_8
+Z1 !s100 0L@hD1bDjl1HD?1jaX;fA2
+Z2 I6mkGC8I>;K?@5DV[46_il0
+Z3 V[]EzhaFRF<[K9J4m`g8;Q1
+Z4 dC:\Users\JGSN_SD\Git\VHDL\dff\simulation\qsim
+Z5 w1653788651
+Z6 8dff.vo
+Z7 Fdff.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|dff.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1653788652.760000
+Z12 !s107 dff.vo|
+!s101 -O0
+vdff_8_vlg_check_tst
+!i10b 1
+Z13 !s100 ec]XN:N7^OA6E1_Jo8lV<3
+Z14 IkbieX?:A<HX0UXo40nQ[Q0
+Z15 VeJ<BLai`JDnNY=XQ33ANB3
+R4
+Z16 w1653788647
+Z17 8dff.vt
+Z18 Fdff.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1653788653.160000
+Z20 !s107 dff.vt|
+Z21 !s90 -work|work|dff.vt|
+!s101 -O0
+R10
+vdff_8_vlg_sample_tst
+!i10b 1
+Z22 !s100 2>Ek?V;zeLSRicPg@:]?h1
+Z23 IN<zo^[T:N7<FzJz[BXoKX1
+Z24 V;c1E8ScMO7oM49@<0^1V^1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vdff_8_vlg_vec_tst
+!i10b 1
+!s100 `Ri]`E@hh:7TaSAGY=a^f0
+IJCFHK[YT1iHD`QRW=?foR2
+Z25 VgS7@2DZ5]n4^EBCMlom801
+R4
+R16
+R17
+R18
+Z26 L0 281
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
