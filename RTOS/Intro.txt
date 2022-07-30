@@ -1,0 +1,46 @@
+#Intro
+Real time operating system 
+
+#What is RTOS ?
+Your OS is multi tasking.
+
+Multi-tasking: Every app is given a certain amount of time to execute this is the case
+for a single core processor. This is why we need RTOS. 
+
+#Scheduler
+
+Who decide which task to run? 
+Here comes the Scheduler!
+
+It is an algorithm that is used to decide who should be executing at any given moment. 
+A Scheduler can start, pause or suspend a task any time. 
+
+Task: For a single core processor. Only one task at a time can be running. 
+#TASK STATES: 
+SUSPEND:The application programmer can suspend a task and the resume it to be back to the running state.
+READ:If the task is read for execution, and neither blocked nor suspend.
+RUNNING: Meaning that the state is in execution.
+BLOCKED: Could be for many reasons. Like waiting for an interrupt.
+
+OBS: Never use delay(), we using interrupt or rtos. 
+
+#Binary Semaphore
+
+Assume two devices are trying to write to the same resource. 
+If both try to write at the same time, whose data will be display?
+Result -> Corrupted data !
+Solution? Semaphore.
+A Semaphore will grant access to resource, to who ever owns it. If task A acquires semaphore. It
+can access the resource meanwhile, task be will be block state.
+Task A request to have a semaphore. If it is available it takes it. Otherwise it gets blocked from runnig
+until semaphore is freed. 
+
+Who frees a semaphore and takes it ? 
+Inside the racing task, a function to take the semaphore and another to give it are required.
+
+#QUEUES
+Mainly, it is a method to share data between task. 
+Ex: FIFO
+|SendTask| -> FIFO -> |ReceiverTask|
+Motivation: Task dont peform at the same speed. Ex: Image processing. Computer send 5 img per seconds
+but arduino only process one image per second. 

@@ -1,0 +1,4 @@
+What is an DAC? 
+
+It converts digital signals, to analog signals. 
+It convert data into uC analog signal to control a device. 

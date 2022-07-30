@@ -1,0 +1,14 @@
+What is UART?
+
+A serial communication protocol to transmit data between two devices.  
+Every bit sent, could be imagined like actuating an output with +5v and 0Vin sequence.
+If you actuate and deactuate it at a certain speed, and accumulate every certain number of bits together
+(say 4 bits). You get the message. 
+E.g:
+-Send bits in sequence: 1010
+-The time interval between every bit is fixed
+
+-//-
+-Consist of 8 data bits
+-1 Start bit
+-One or two stop bits
